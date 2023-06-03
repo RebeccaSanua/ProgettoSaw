@@ -1,0 +1,96 @@
+section{
+    margin: 0 5% 10% 10%;
+}
+
+section h1{
+    margin-top:5%;
+    font-size:40pt;
+    font-weight: bold;
+    text-align: center;
+    margin-right:40%;
+    margin-left:10%;
+    font-family: "Open Sans", sans-serif;
+}
+
+#account{
+    width: auto;
+    height: 20%;
+    margin-bottom:2%;
+    display: flex;
+}
+
+#account button{
+    border-radius: 15px;
+    border: 3px solid #49ce5c;
+    color:white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    background-color: #49ce5c;
+    text-decoration: none;
+    display:block;
+    font-size: 13pt;
+    margin-top:7%;
+    height: 40px;
+    width: 15%;
+}
+#account form{
+    display:none;
+    margin-top:4%;
+    padding:1%;
+    text-align: center;
+    border: 3px solid #49ce5c;
+    border-radius: 15px;;
+    margin-left:5%;
+    width:15%;
+    height:80%;
+    font-size: 12pt;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 0 10px 40px #7ED957, 0 0 0 20px #ffffffeb;
+}
+#account form button{
+    margin-left: 23%;
+    margin-top:3%;
+    font-size: 10pt;
+    height: 30px;
+    width:50%;
+}
+#account button:hover{
+    border: 3px solid #49ce5c;
+    background-color: #f5f5f5;
+    color:#49ce5c;
+}
+
+.informazioni img{
+    width:45%;
+}
+
+.informazioni{
+    display: inline-block;
+    width: 25%;
+    margin-bottom:5%;
+    margin-left: 5%;
+}
+
+.informazioni p{
+    padding-left:2%;
+    padding-right:6%;
+    font-size: 15pt;
+    font-family: "Open Sans", sans-serif;
+}
+.informazioni h2{
+    padding-left:2%;
+    padding-right:2%;
+    font-size: 20pt;
+    font-family: "Open Sans", sans-serif;
+}
+section a {
+    color: black;
+    text-decoration: none;
+}
+section img:hover{
+    scale:0.95;
+}
+
+footer{
+    clear: both;
+}

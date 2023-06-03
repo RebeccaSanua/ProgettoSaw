@@ -1,0 +1,62 @@
+
+aside{
+    border-right: 1px solid black;
+    float:left;
+    width:25%;
+    margin-top:2%;
+    height: 600px;
+}
+section{
+    padding: 3%;
+    float:left;
+    width: 65%;
+}
+section p{
+    margin-bottom:5%;
+    margin-top:2%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15pt;
+}
+section h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20pt;
+}
+footer{
+    clear:both;
+}
+section a{
+    text-decoration: none;
+    color: #7ED957;
+}
+section a:hover{
+    font-weight: bold;
+}
+
+aside ul{
+    padding:3%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20pt;
+    list-style-type: none;
+}
+aside li{
+    margin-bottom: 10%;
+}
+aside a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#faq{
+    padding-top:3%;
+    padding-left: 25%;
+    padding-bottom:3%;
+}
+#faq h1{
+    
+    font-size:60pt;
+    font-family: lora;
+}
+#faq h2{
+    font-family: lora;
+    font-size:20pt;
+}

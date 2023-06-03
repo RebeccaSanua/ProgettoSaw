@@ -1,0 +1,131 @@
+section h1 {
+    margin-top:3%;
+    font-family: lora;
+    text-align:center;
+    font-size:35pt;
+}
+section h2 {
+    text-align: center;
+    font-family: lora;
+    font-size:20pt;
+    font-weight: normal;
+}
+section h3{
+    margin-top:2%;
+    text-align: center;
+    font-family:  "Open Sans", sans-serif;
+    font-size: 15pt;
+
+}
+p, label {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+section{
+    height:auto;
+    margin-bottom:5%;
+}
+
+#donation-bar-container {
+    background-color: #ddd;
+    height: 30px;
+    margin: 20px auto;
+    border-radius:15px;
+    width: 60%;
+}
+#donation-bar {
+    background-color: #7ED957;
+    height: 100%;
+    border-radius:15px;
+    width: 0%;
+}
+
+#donation-input{
+    width:20%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom:5%;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="number"]{
+  margin-top: 3%;
+  appearance: none; /* Disabilita lo stile predefinito del browser */
+  background-color: #f2f2f2; /* Colore di sfondo */
+  border: 1px solid #ccc; /* Bordo */
+  padding: 5px 10px; /* Spaziatura interna */
+  border-radius: 4px; /* Angoli arrotondati */
+  font-size: 14px; /* Dimensione del testo */
+  /* Aggiungi altri stili desiderati */
+}
+
+input[type="number"]::placeholder {
+    font-size: 10pt;
+    font-family: "Open Sans", sans-serif;
+}
+
+input[type="number"]:focus{
+    outline: none; /* Rimuovi l'outline predefinito */
+    box-shadow: 0 0 5px #aaa;
+}
+
+input[type="submit"] {
+    margin-top: 1%;
+    display: block;
+    border-radius: 15px;
+    background-color:#7ED957;
+    border: 3px solid #7ed957;
+    padding:0.5%;
+    color: rgb(0, 0, 0, 0.8);
+    width:15%;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: "Open Sans", sans-serif;
+}
+
+input[type="submit"]:hover {
+    scale: 0.95;
+}
+
+.buttons{
+    width:50%;
+    margin-left: 36%;
+    margin-top:1%;
+}
+
+.buttons input{
+    border-radius: 15px;
+    padding:1%;
+    border:1px solid black;
+}
+
+.buttons input:hover{
+    scale:0.95;
+}
+#benvenuto, #motivazioni{
+    font-size:15pt;
+    font-family: "Open Sans", sans-serif;
+    padding-left:14%;
+    padding-right:14%;
+    margin-top:1%;
+    margin-bottom: 5%; 
+}
+#motivazioni{
+    font-size: 20pt;
+    text-align: left;
+}
+#titoloMot{
+    font-size: 30pt;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom:5%;
+}

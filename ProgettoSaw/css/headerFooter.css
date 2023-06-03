@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+header{
+    top: 0;
+    background-color: rgb(255, 255, 255, 0.97);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row; 
+    font-family: "Open Sans", sans-serif;
+    font-size: 19pt;
+}
+
+.Logo{
+    margin-left:8%;
+    margin-top:0.5%;
+    margin-bottom: 0.5%;
+}
+
+.Logo img{
+    height: 100%;
+}
+
+nav{
+    margin-left: 5%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    margin-right: 3%;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration:overline;
+    text-decoration-color: #7ED957; 
+}
+
+nav a:active{
+    color:#7ED957;
+}
+
+header img:hover{
+    scale:0.95;
+}
+
+footer{
+    padding-top:2%;
+    padding-bottom: 2%;
+    background-color: #7ED957;
+    height:160px;
+    font-family: "Open Sans", sans-serif;
+    color:black;
+    text-align: center; 
+    font-size: 13pt;
+}
+
+footer h3{
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer img{
+    width:3%;
+}
+
+footer img:hover{
+    scale:0.95;
+}
+
+footer h6{
+    margin-top:0.5%;
+    font-weight:inherit;
+    font-size: 10pt;
+    font-family: Lora;
+}
+
+#box-bottom{
+    height:30%;
+    background-color:#7ED957;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #7ED957, 0 0 0 20px #ffffffeb;
+    padding-left: 3%;
+}
+
+nav input::placeholder{
+    font-family: "Open Sans", sans-serif;
+    color:black;
+    opacity:60%;
+    font-size: 13pt;
+}
+
+nav input{
+    background-color:transparent;
+    border:none;
+}
+
+nav input:hover{
+    border:none;
+}
+
+nav input:focus{
+    border:none;
+    outline: none;
+}
+
+#search{ 
+    margin-left:1%;
+}
+
+.dropbtn {
+    color: black;
+    border: none;
+    padding: 5%;
+    text-align: center;
+
+}
+  
+  /* Contenitore del menu a tendina */
+  .dropdown {
+    width:auto;
+    position: relative;
+    height:100%;
+    display: grid;
+    align-items:center;
+  }
+  
+  /* Contenuto del menu a tendina (nascosto di default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top:2%;
+    min-width: 200px;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top:80px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    margin-top:10%;
+    margin-left:20%;
+    margin-bottom: 10%;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Mostra il menu a tendina al passaggio del mouse sul pulsante */
+  .dropdown:hover .dropdown-content {
+    display: block;
+ }
+    #logout{
+        margin-top:0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+ .dropdown-content img{
+    width:15%;
+    margin-left:4%;
+    display: inline-block;
+    }
+  
